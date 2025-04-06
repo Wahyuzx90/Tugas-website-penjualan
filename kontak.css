@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #ff5733;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff5733 !important;
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon {
+    background-color: #ff5733;
+}
+.container {
+    max-width: 900px;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 50px;
+}

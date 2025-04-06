@@ -1,0 +1,99 @@
+body {
+    padding-top: 50px;
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 900px;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+.cart-item:hover {
+    transform: translateY(-5px);
+}
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.cart-item .product-details {
+    flex-grow: 1;
+    padding-left: 15px;
+}
+.cart-item input[type="number"] {
+    width: 80px;
+}
+.cart-item .btn {
+    margin-left: 5px;
+}
+#total-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+.btn-danger-custom {
+    background-color: #dc3545;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.btn-danger-custom:hover {
+    background-color: #bd2130;
+}
+.btn-success-custom {
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.btn-success-custom:hover {
+    background-color: #218838;
+}
+
+/* ===== RESPONSIVE UNTUK LAYAR KECIL ===== */
+@media (max-width: 576px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .cart-item img {
+        margin-bottom: 10px;
+    }
+
+    .cart-item .product-details {
+        padding-left: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .cart-item input[type="number"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cart-item .btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #total-price {
+        font-size: 1.1rem;
+    }
+}

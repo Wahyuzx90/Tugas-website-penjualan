@@ -1,0 +1,75 @@
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #ff5733;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff5733 !important;
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon {
+    background-color: #ff5733;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    height: 200px; 
+}
+
+.card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px; 
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    flex-grow: 1;
+}
+
+.card-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #08b7fc;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1808f1;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #ff5733;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ff5733 !important;
+    transition: all 0.3s ease;
+}
+
+.about-section {
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.about-section h4 {
+    margin-top: 20px;
+    color: #0d6efd;
+}
+
+.about-section ul li::before {
+    content: "✔️ ";
+}
+
+.about-icon {
+    font-size: 3rem;
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+.team-img {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #343a40;
+}

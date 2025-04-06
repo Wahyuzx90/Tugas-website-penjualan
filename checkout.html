@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <h1>Formulir Checkout</h1>
+    <form id="checkout-form">
+        <label>Nama:</label><br>
+        <input type="text" id="nama" required><br>
+
+        <label>Alamat:</label><br>
+        <textarea id="alamat" required></textarea><br>
+
+        <label>Metode Pembayaran:</label><br>
+        <select id="pembayaran" required>
+            <option value="">--Pilih--</option>
+            <option value="transfer">Transfer Bank</option>
+            <option value="cod">Bayar di Tempat</option>
+        </select><br><br>
+
+        <button type="submit">Selesaikan Pesanan</button>
+    </form>
+    <script src="checkout.js"></script>
+</body>
+</html>
